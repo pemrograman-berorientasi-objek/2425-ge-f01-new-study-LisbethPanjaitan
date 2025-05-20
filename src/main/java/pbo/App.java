@@ -4,19 +4,11 @@ import javax.persistence.*;
 import java.util.*;
 import pbo.model.*;
 
-/**
-* author 
-* 12S23041 - Lisbeth Panjaitan
-* 12S23021 - Eunike Purba
-*/
 public class App {
-    private static EntityManagerFactory factory;
-    private static EntityManager em;
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        factory = Persistence.createEntityManagerFactory("study_plan_pu");
-        em = factory.createEntityManager();
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("study_plan_pu");
+        EntityManager em = factory.createEntityManager();
 
         while (sc.hasNext()) {
             String input = sc.nextLine();

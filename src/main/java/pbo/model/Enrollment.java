@@ -24,9 +24,7 @@ public class Enrollment {
     }
 
     public String getNim() { return nim; }
-    public void setNim(String nim) { this.nim = nim; }
     public String getKode() { return kode; }
-    public void setKode(String kode) { this.kode = kode; }
 
     public static class EnrollmentId implements Serializable {
         private String nim;

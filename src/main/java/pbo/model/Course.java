@@ -28,11 +28,7 @@ public class Course {
     }
 
     public String getKode() { return kode; }
-    public void setKode(String kode) { this.kode = kode; }
     public String getNama() { return nama; }
-    public void setNama(String nama) { this.nama = nama; }
     public int getSemester() { return semester; }
-    public void setSemester(int semester) { this.semester = semester; }
     public int getKredit() { return kredit; }
-    public void setKredit(int kredit) { this.kredit = kredit; }
 }
