@@ -1,6 +1,11 @@
 package pbo.model;
 
 import javax.persistence.*;
+/**
+* author 
+* 12S23041 - Lisbeth Panjaitan
+* 12S23021 - Eunike Purba
+*/
 
 @Entity
 @Table(name = "Student")

@@ -4,6 +4,11 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
+/**
+* author 
+* 12S23041 - Lisbeth Panjaitan
+* 12S23021 - Eunike Purba
+*/
 @Entity
 @Table(name = "Enrollment")
 @IdClass(Enrollment.EnrollmentId.class)

@@ -1,4 +1,9 @@
 package pbo.model;
+/**
+* author 
+* 12S23041 - Lisbeth Panjaitan
+* 12S23021 - Eunike Purba
+*/
 
 import javax.persistence.*;
 
